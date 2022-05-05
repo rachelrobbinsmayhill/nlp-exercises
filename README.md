@@ -1,0 +1,1 @@
+This repository contains exercises for the Natural Language Processing component within Codeup's Data Science Methodologies Curriculum.
