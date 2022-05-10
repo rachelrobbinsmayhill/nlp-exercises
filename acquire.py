@@ -1,6 +1,7 @@
-import requests from get
+from requests import get
 from bs4 import BeautifulSoup
 import pandas as pd
+import os
 
 def get_one_blog_article(url):
     '''This function takes in a url in string format, it provides a User-Agent to the URL and requests a response using the URL and headers.
@@ -19,6 +20,11 @@ def get_one_blog_article(url):
     output['contents'] = soup.select_one('div.entry-content').text
     
     return output    
+
+
+
+def get_blog_articles(use_cache=True):
+    if 
 
 
 def get_blog_articles(urls):
