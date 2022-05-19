@@ -63,6 +63,7 @@ def parse_news_card(card, category):
     return output
 
 
+
 # Need a function to obtain ANY CATEGORY
 # take in a category and returns a list of dictionaries list[dict]
 def parse_inshorts_page(category):
@@ -72,6 +73,7 @@ def parse_inshorts_page(category):
     articles = [parse_news_card(card, category) for card in soup.select('.news-card')]
     
     return articles
+
 
 
 def get_news_articles():
